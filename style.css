@@ -1,0 +1,7 @@
+:root { --container-max: 1100px; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+.font-inter { font-family: 'Inter', sans-serif; }
+.container { max-width: var(--container-max); margin-left:auto; margin-right:auto; }
+.nav-link { color:#cbd5e1; text-decoration:none; padding:8px 10px; border-radius:6px; }
+.nav-link:hover { color:#fff; background:rgba(255,255,255,0.03); }
+.nav-link.active { color:#0f172a; background:#f59e0b; font-weight:600; }
